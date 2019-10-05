@@ -1,0 +1,2 @@
+// Gia tri cua bien a la 6
+// gia tri tai dia chi cua bien con tro p dang tro toi la mot gia tri ma thap luc phan

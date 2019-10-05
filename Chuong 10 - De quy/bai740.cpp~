@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+double nhan(int n);
+double tong(int n);
+int main()
+{
+	int n;
+	cout<<"Nhap n: ";
+	cin>>n;	
+	cout<<"S = "<<tong(n)<<endl;
+}
+double tong(int n)
+{
+	if(n == 1)
+	{
+		return nhan(n);
+	}
+	else
+	{
+		return nhan(n) + tong(n-1);
+	}
+}
+double nhan(int n)
+{
+	if(n == 1)
+	{
+		return 1;
+	}
+	else
+	{
+		return n * nhan(n - 1);
+	}
+}

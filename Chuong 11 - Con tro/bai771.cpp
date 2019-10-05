@@ -1,0 +1,1 @@
+// cau lenh 4 sai, con lai dung vi con tro p chi nhan dia chi kieu int
